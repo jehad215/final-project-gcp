@@ -28,11 +28,11 @@
 
 ### SSh to VM and install following: 
 
-  ● gcloud 
-  ● kubectl
-  ● gcloud plugin
+  * gcloud 
+  * kubectl
+  * gcloud plugin
 
-#### $ Connect to cluster:
+### Connect to cluster:
   ```bash
 
   $ gcloud container clusters get-credentials private-cluster --zone us-east4-c --project jehad-iti
