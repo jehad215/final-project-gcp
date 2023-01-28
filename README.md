@@ -1,4 +1,4 @@
-# GCP Final project
+# (GCP Final project)
 
 ### Build python docker image from Dockerfile, push to GCR :
   ```bash
@@ -11,7 +11,7 @@
   * docker tag redis gcr.io/jehad-devops-iti/redis-image
   * docker push gcr.io/jehad-devops-iti/redis-image
   ```
-
+![home_Page Image](./outputs/images.png)
 
 ### Use terraform commands:
   ```bash
@@ -39,6 +39,7 @@
 
 
 ### Take loadbalancer IP with port and test in your browser:
+![home_Page Image](./outputs/output.png)
 
 
 
