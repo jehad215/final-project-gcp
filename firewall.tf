@@ -8,3 +8,4 @@ resource "google_compute_firewall" "allow" {
   direction = "INGRESS"
   source_ranges = ["0.0.0.0/0"]
 }
+
