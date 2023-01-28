@@ -12,13 +12,13 @@ resource "google_compute_subnetwork" "restricted_subnet" {
   network = google_compute_network.vpc-final.id
 
   private_ip_google_access = true
-  secondary_ip_range {
-    range_name = "pod-range"
-    ip_cidr_range = "10.0.3.0/24"
-  }
-  secondary_ip_range {
-    range_name = "service-range"
-    ip_cidr_range = "10.0.4.0/24"
-  }
+  # secondary_ip_range {
+  #   range_name = "pod-range"
+  #   ip_cidr_range = "10.0.3.0/24"
+  # }
+  # secondary_ip_range {
+  #   range_name = "service-range"
+  #   ip_cidr_range = "10.0.4.0/24"
+  # }
 
 }
