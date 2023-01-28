@@ -1,4 +1,4 @@
-## GCP Final project
+# GCP Final project
 
 ### Build python docker image from Dockerfile, push to GCR :
   ```bash
