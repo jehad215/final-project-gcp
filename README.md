@@ -55,7 +55,7 @@ $ sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
   $ gcloud compute scp --recurse deployment/ private-vm:/home/jehad --zone us-east4-c --tunnel-through-iap
   
   ``` 
-### Apply All yml Files:
+### Apply All yml Files on VM:
   ```bash
 
   $ Kubectl create -f deployment
