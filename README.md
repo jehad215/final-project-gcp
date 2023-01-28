@@ -56,7 +56,7 @@
 ## services
 ![home_Page Image](./outputs/services.png)
 
-### Take loadbalancer IP with port and test in your browser:
+### Loadbalancer IP with port in browser
 ![home_Page Image](./outputs/output.png)
 
 
