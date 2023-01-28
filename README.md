@@ -1,4 +1,4 @@
-# GCP Final project
+## GCP Final project
 
 ### Build python docker image from Dockerfile, push to GCR :
   ```bash
@@ -47,10 +47,13 @@
 ### Apply All yml Files:
   ```bash
 
-  Kubectl create -f deployment
+  $ Kubectl create -f deployment
 
   ```
+
+## workloads
 ![home_Page Image](./outputs/workloads.png)
+## services
 ![home_Page Image](./outputs/services.png)
 
 ### Take loadbalancer IP with port and test in your browser:
