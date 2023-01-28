@@ -49,7 +49,7 @@ $ sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
   $ gcloud container clusters get-credentials private-cluster --zone us-east4-c --project jehad-iti
 
   ```
-### Copy yml files to VM:
+### Copy yaml files to VM:
   ```bash
 
   $ gcloud compute scp --recurse deployment/ private-vm:/home/jehad --zone us-east4-c --tunnel-through-iap
